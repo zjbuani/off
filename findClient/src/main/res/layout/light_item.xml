@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            style="@style/Light_dialog_text"
+            android:background="@drawable/selector_light_item_button"
+            android:text="@string/energy"/>
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/selector_light_item_button"
+            android:text="@string/temperatur"
+            style="@style/Light_dialog_text" />
+        <Button
+            android:background="@drawable/selector_light_item_button"
+            android:text="@string/energy"
+            android:layout_gravity="right"
+            style="@style/Light_dialog_text" />
+    </FrameLayout>
+</FrameLayout>

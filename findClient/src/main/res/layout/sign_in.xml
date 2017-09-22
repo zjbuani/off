@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/lbg"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="102dp"
+        android:src="@drawable/gos" />
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/user_name"
+        android:inputType="textPersonName"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/imageView4"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="请输入密码"
+        android:inputType="textPassword"
+        android:layout_below="@+id/user_name"
+        android:layout_alignLeft="@+id/user_name"
+        android:layout_alignStart="@+id/user_name"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:id="@+id/sign_in_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light"
+        android:text="登录"
+        android:textSize="25dp"
+        android:onClick="click"
+        android:layout_below="@+id/pwd"
+        android:layout_marginTop="26dp"
+        android:layout_alignRight="@+id/pwd"
+        android:layout_alignEnd="@+id/pwd"
+        android:layout_alignLeft="@+id/pwd"
+        android:layout_alignStart="@+id/pwd" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/beefind"
+        android:id="@+id/imageView4"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+         android:layout_centerVertical="true"
+
+        android:layout_marginRight="55dp"
+        android:layout_marginEnd="55dp" />
+
+</RelativeLayout>

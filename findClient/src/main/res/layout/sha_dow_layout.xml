@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dd.ShadowLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/light_sha_dow">
+        <TextView
+            style="@style/Light_dialog_text"
+            android:layout_gravity="left"
+            android:text="@string/energy" />
+        <TextView
+            style="@style/Light_dialog_text"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/temperatur"
+            />
+        <TextView
+            style="@style/Light_dialog_text"
+            android:layout_gravity="right"
+            android:text="@string/energy" />
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/default_shadow_color"/>
+        <TextView
+            style="@style/Light_dialog_text"
+            android:layout_gravity="bottom|left"
+            android:text="@string/energy" />
+        <TextView
+            style="@style/Light_dialog_text"
+            android:layout_gravity="bottom|center_horizontal"
+            android:text="@string/energy" />
+        <TextView
+            style="@style/Light_dialog_text"
+            android:layout_gravity="bottom|right"
+            android:text="@string/energy" />
+    </FrameLayout>
+
+</com.dd.ShadowLayout>
