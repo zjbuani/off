@@ -19,6 +19,7 @@
     <string name="temperatur">温度</string>
     <string name="setitemsystem">系统说明</string>
     <string name="setitemversion">版本信息</string>
-
+    <string name="setitemserverpath">连接服务器地址</string>
+    <string name="back">退出登录</string>
 
 </resources>

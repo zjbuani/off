@@ -3,29 +3,50 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-
-    android:showDividers="middle">
+    >
 
     <include
         layout="@layout/light_title"
         android:layout_width="match_parent"
         android:layout_height="50dp" />
 
-    <TextView
+    <LinearLayout
+        android:divider="@drawable/set_item"
+        android:showDividers="middle|end"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="@string/setitemsystem" />
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+        <Button
+            style="@style/settitem_button"
+            android:text="@string/setitemsystem" />
+        <Button
+            style="@style/settitem_button"
+            android:text="@string/setitemversion" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/connect"
+            style="@style/settitem_button"
+            android:text="@string/setitemserverpath" />
+            <TextView
+                android:id="@+id/connect_tv"
+                style="@style/text"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="right|center"
+                android:textSize="20dp"
+                android:text="内网"/>
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="@string/setitemversion" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="@string/setitemversion" />
+        android:layout_height="match_parent">
+        <Button
+            style="@style/settitem_button_back"
+            android:id="@+id/logout"
+            android:text="@string/back" />
+    </FrameLayout>
 
 </LinearLayout>

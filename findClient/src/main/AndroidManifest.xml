@@ -51,6 +51,9 @@
         <activity android:name="com.all.activity.LightingSystemActivity"/>
         <activity android:name="com.all.activity.StationSystemActivity"/>
         <activity android:name="com.all.activity.HomeSettingActivity"/>
+        <activity android:name="com.all.activity.ManageMent"/>
+
+
     </application>
 
 </manifest>

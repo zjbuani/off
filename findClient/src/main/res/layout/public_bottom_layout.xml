@@ -23,12 +23,15 @@
                 android:id="@+id/rb_home"
                 style="@style/Bottom_Tab_Style"
                 android:checked="true"
-                android:drawableTop="@drawable/l_homes"
+                android:textColor="@drawable/radio_text"
+                android:drawableTop="@drawable/radio_button_home"
                 android:text="首页" />
             <RadioButton
-                android:id="@+id/rb_news"
+                android:id="@+id/rb_man"
                 style="@style/Bottom_Tab_Style"
-                android:drawableTop="@drawable/l_manage"
+                android:drawableTop="@drawable/radio_button_man"
+                android:textColor="@drawable/radio_text"
                 android:text="管理中心" />
         </RadioGroup>
-    </LinearLayout></FrameLayout>
+    </LinearLayout>
+</FrameLayout>

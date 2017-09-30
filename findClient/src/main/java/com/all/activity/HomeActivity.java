@@ -13,7 +13,7 @@ import android.widget.ImageView;
 import com.http.response.bean.SignInBean;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 import com.jeremyfeinstein.slidingmenu.lib.app.SlidingFragmentActivity;
-import com.zhy.sample.folderlayout.LeftMenuFragment;
+import com.fragment.LeftMenuFragment;
 import com.zhy.sample.folderlayout.R;
 import com.zhy.sample.folderlayout.RightMenuFragment;
 

@@ -17,7 +17,7 @@
 
     <fragment
         android:id="@+id/id_left_menu"
-        android:name="com.zhy.sample.folderlayout.LeftMenuFragment"
+        android:name="com.fragment.LeftMenuFragment"
         android:layout_width="240dp"
         android:layout_height="match_parent"
         android:layout_gravity="left"

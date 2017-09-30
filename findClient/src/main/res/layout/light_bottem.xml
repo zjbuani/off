@@ -16,7 +16,7 @@
             android:gravity="center"
             android:orientation="horizontal">
             <RadioButton
-                android:id="@+id/rb_home"
+                android:id="@+id/rb_light_home"
                 style="@style/Bottom_Tab_Style"
                 android:checked="true"
                 android:drawableTop="@drawable/l_home"
